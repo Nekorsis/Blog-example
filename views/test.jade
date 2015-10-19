@@ -9,8 +9,8 @@ html(lang='en')
 	body
 		.wrapper#wrapper
 			header#header
-				h2= "Demopage"
-				h5= "Some description"
+				h2: a#logo(href= "http://localhost:3000/test") Demopage
+				h5#description= "Some description"
 				nav#main-nav
 					ul#header-list
 						li: a.nav-link(href= "http://localhost:3000/test") Home
@@ -26,6 +26,8 @@ html(lang='en')
 					img.article-pic(src= "http://puu.sh/kOXd0/a96811da64.jpg")
 					p= "Gurnard Blenny duckbill righteye flounder rock beauty pricklefish yellowbelly tail catfish warbonnet, orangespine unicorn fish. Clingfish luderick seahorse, walleye pollock pearleye, telescopefish jawfish sea chub eel-goby; zander codling. Streamer fish pike conger Rio Grande perch trunkfish: kappy summer flounder guitarfish yellowbelly tail catfish bango. Bluntnose knifefish pearl danio knifejaw cuchia staghorn sculpin; Blind shark tigerperch longnose dace blackfish spookfish Asiatic glassfish."
 						|Eel cod flying gurnard skate cookie-cutter shark tiger barb ray pineconefish, prickly shark! Tripletail perch southern smelt sheatfish conger eel, man-of-war fish river loach popeye catafula goby alooh, pirate perch hog sucker. Cavefish coolie loach spiderfish, "grunion Atlantic herring tube-snout," eagle ray mojarra albacore black dragonfish neon tetra; electric knifefish. Herring freshwater flyingfish longfin smelt European perch worm eel beaked sandfish trout-perch tarwhine remora saury. Powen, surgeonfish daggertooth pike conger flying characin, mackerel shark olive flounder gombessa. Blacksmelt white marlin molly fingerfish silverside, tarwhine ghost fish, rough sculpin bristlenose catfish, spotted dogfish rudderfish cutthroat eel.
+					.container3#video
+						iframe#frame(src= "https://www.youtube.com/embed/njos57IJf-0" width= "550" heigth= "400" frameboard= "0")
 			aside#sidebar
 				section#first-section
 					h4#list-h= "Left-side bar"
@@ -38,3 +40,4 @@ html(lang='en')
 						li: a.side-list(href= "http://localhost:3000/test") Link6
 			footer#footer
 				p= "made by Nekorsis, maybe"
+			adress: a(href= "http://localhost:3000/test") Contact me if you dare
