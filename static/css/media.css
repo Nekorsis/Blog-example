@@ -50,6 +50,9 @@
     #frame2{
       width: 100%;
    }
+    .nav-link{
+      padding-top: 3%;
+   }
 }
 
 @media screen and (max-width: 480px) {
