@@ -80,11 +80,7 @@ body{
 	background-color: #ffffff;
 }
 .nav-link{
-<<<<<<< HEAD:static/css/main.css
 	text-align: center;
-=======
-	padding-left: 1%;
->>>>>>> 5cd08a630a233c343cc1ea2d3ad3126367f88bc4:static/css/main.css
 	padding-top: 1.2%;
 	padding-right: 1%;
 	padding-left: 1%;
@@ -124,7 +120,6 @@ body{
 	font-style: italic;
 }
 #video{
-	padding-bottom: 3%;
 	width: 100%;
 	padding-bottom: 3%;
 }
@@ -138,8 +133,5 @@ body{
 #frame{
 	width: 100%;
 	height: 400px;
-<<<<<<< HEAD:static/css/main.css
 
-=======
->>>>>>> 5cd08a630a233c343cc1ea2d3ad3126367f88bc4:static/css/main.css
 }
