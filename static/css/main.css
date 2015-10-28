@@ -19,6 +19,16 @@ body{
 	background-color: #ffffff;
 	border-radius: 10px;
 }
+#content-p2{
+	margin-top: 3%;
+	display: block;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 600px;
+	float: left;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
 #sidebar{
 	box-shadow: 0 1px 3px rgba(0,0,0,.4);
 	width: 280px;
@@ -58,6 +68,7 @@ body{
 	display: inline;
 }
 #header-list li :hover{
+	text-align: center;
 	text-decoration: none;
 	color: #ffffff;
 	background-color: #3b3b3b;
@@ -69,8 +80,10 @@ body{
 	background-color: #ffffff;
 }
 .nav-link{
+	text-align: center;
 	padding-top: 1.2%;
 	padding-right: 1%;
+	padding-left: 1%;
 	font-size: 19px;
 	height: 100%;
 	display: inline-block;
@@ -86,6 +99,9 @@ body{
 	padding-bottom: 25px;
 }
 #content p{
+	padding-bottom: 50px;
+}
+#content-p2 p{
 	padding-bottom: 50px;
 }
 #footer{
@@ -105,8 +121,17 @@ body{
 }
 #video{
 	width: 100%;
+	padding-bottom: 3%;
+}
+#frame{
+	width: 100%;
+}
+#video2{
+	width: 100%;
+	padding-bottom: 3%;
 }
 #frame{
 	width: 100%;
 	height: 400px;
+
 }

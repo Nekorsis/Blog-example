@@ -7,12 +7,19 @@
       width: 60%;
       padding: 3% 4%;
    }
+    #content-p2 {
+      width: 60%;
+      padding: 3% 4%;
+   }
    #sidebar {
       width: 30%;
    }
    #sidebar .widget {
       padding: 8% 7%;
       margin-bottom: 10px;
+   }
+    #frame2{
+      width: 100%;
    }
 }
 
@@ -25,16 +32,23 @@
       float: none;
       margin: 20px 0;
    }
+   #content-p2 {
+      width: auto;
+      padding: 3% 4%;
+   }
    #sidebar {
       width: 100%;
       float: none;
       margin: 0;
    }
    .nav-link{
-      font-size: 16px;
+      font-size: 15px;
    }
    #left_side_bar_head{
       margin-bottom: 2px;
+   }
+    #frame2{
+      width: 100%;
    }
 }
 
