@@ -10,7 +10,7 @@ body{
 	margin: 0 auto;
 }
 #header{
-	color: rgba(255,255,255,.7);
+	color: #222222;
 	height: 160px;
 }
 #content{
@@ -118,7 +118,7 @@ body{
 }
 #logo{
 	text-decoration: none;
-	color: #ffffff;
+	color: #222222;
 }
 #description{
 	font-style: italic;
