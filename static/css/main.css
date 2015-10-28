@@ -10,7 +10,7 @@ body{
 	margin: 0 auto;
 }
 #header{
-	color: #ffffff;
+	color: rgba(255,255,255,.7);
 	height: 160px;
 }
 #content{
@@ -19,7 +19,7 @@ body{
 	padding-right: 3%;
 	width: 600px;
 	float: left;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,.7);
 	border-radius: 10px;
 }
 #content-p2{
@@ -29,14 +29,14 @@ body{
 	padding-right: 3%;
 	width: 600px;
 	float: left;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,.7);
 	border-radius: 10px;
 }
 #sidebar{
 	box-shadow: 0 1px 3px rgba(0,0,0,.4);
 	width: 280px;
 	float: right;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,.7);
 	border-radius: 10px;
 }
 #first-section{
@@ -80,7 +80,7 @@ body{
 	height: 50px;
 	border-radius: 5px;
 	color: black;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,.7);
 }
 .nav-link{
 	text-align: center;
