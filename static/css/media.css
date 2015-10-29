@@ -3,11 +3,7 @@
    #main-wrapper {
       width: 95%;
    }
-   #content {
-      width: 60%;
-      padding: 3% 4%;
-   }
-    #content-p2 {
+   .content {
       width: 60%;
       padding: 3% 4%;
    }
@@ -18,7 +14,7 @@
       padding: 8% 7%;
       margin-bottom: 10px;
    }
-    #frame2{
+    .frame{
       width: 100%;
    }
 }
@@ -27,14 +23,10 @@
    #header {
       height: auto;
    }
-   #content {
+   .content {
       width: auto;
       float: none;
       margin: 20px 0;
-   }
-   #content-p2 {
-      width: auto;
-      padding: 3% 4%;
    }
    #sidebar {
       width: 100%;
@@ -44,15 +36,16 @@
    .nav-link{
       font-size: 15px;
    }
-   #left_side_bar_head{
+   #sidebar-head{
       margin-bottom: 2px;
    }
-    #frame2{
+    .frame{
       width: 100%;
    }
-    .nav-link{
+   .nav-link{
       padding-top: 3%;
    }
+
 }
 
 @media screen and (max-width: 480px) {
