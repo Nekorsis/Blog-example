@@ -17,6 +17,9 @@
     .frame{
       width: 100%;
    }
+   img{
+      width: 100%;
+   }
 }
 
 @media screen and (max-width: 650px) {
@@ -44,6 +47,9 @@
    }
    .nav-link{
       padding-top: 3%;
+   }
+    img{
+      width: 100%;
    }
 
 }
@@ -74,12 +80,17 @@
    .nav-link{
       padding-top: 3%;
    }
-
+    img{
+      width: 100%;
+   }
 }
 
 @media screen and (max-width: 375px) {
       .nav-link{
       font-size: 10px;
+   }
+    img{
+      width: 100%;
    }
 }
 
