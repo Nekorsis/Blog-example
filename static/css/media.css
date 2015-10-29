@@ -77,7 +77,11 @@
 
 }
 
-
+@media screen and (max-width: 375px) {
+      .nav-link{
+      font-size: 10px;
+   }
+}
 
 
 @media screen and (max-width: 480px) {
